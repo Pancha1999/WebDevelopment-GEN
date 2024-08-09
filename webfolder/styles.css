@@ -366,9 +366,24 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
 }
-    .services__container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+ .services__container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
 
-    }
+}
+.services__card {
+    margin:1rem;
+    height:525px;width:400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/pic3.jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+}
